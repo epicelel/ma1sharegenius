@@ -1,59 +1,21 @@
-
-/* Define the flashing animation */
-@keyframes flash {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-/* Apply the flashing animation to the text */
-#bumpText {
-    display: none;
-    animation: flash 1s infinite; /* 1 second per cycle, repeats infinitely */
-    color: red;
-    font-size: 20px;
-}
-
-#type1 {
-    color: blue;
-    text-align: center;
-    font-size: 50px;
-}
-
-#type2 {
-    color: red;
-    text-align: left;
-    background-color: yellow;
-}
-
-h1 {
-    color: black; /* Changed to black */
-    font-size: 36px;
-}
-
-p {
-    background-color: blueviolet;
-    color: white; /* Added color for readability */
-}
-
-.special {
-    color: violet;
-}
-
-/* Centered image class with box shadow (new feature) */
-.centered-image {
-    display: block;
-    width: 50%;
-    margin: 10px auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* New CSS feature */
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: bisque;
+    font-family: Arial, sans-serif;
 }
+
+body {
+    background-color: rgb(152, 139, 123);
+}
+
 .nav {
     list-style-type: none;
-    background-color: lightgray;
+    background-color: lightblue;
     margin: 0;
     padding: 0;
     overflow: hidden;
