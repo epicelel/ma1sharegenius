@@ -15,7 +15,7 @@ body {
 
 .nav {
     list-style-type: none;
-    background-color: lightblue;
+    background-color: lightgray;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -34,5 +34,5 @@ ul.nav a:hover {
     color: white;
 }
 .active {
-    background-color: antiquewhite;
+    background-color: lightblue;
 }
