@@ -36,3 +36,15 @@ ul.nav a:hover {
 .active {
     background-color: lightblue;
 }
+
+h1, p {
+    margin: 20px;
+}
+
+img {
+    margin: 20px;
+}
+
+.gallery {
+    color: wheat;
+}
